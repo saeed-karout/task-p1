@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebee Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="promo">
+        <p>BLACK FRIDAY SALE - SAVE $100</p>
+    </div>
+
+   <!-- Navbar -->
+<nav class="navbar">
+    <div class="navbar-logo">
+        <div class="nav-logo">
+            <img src="./images/logo.png" alt="Firebee Logo" id="navbar-logo">
+        </div>
+    </div>
+
+    <button class="buy-now">Buy Now</button>
+    <div class="navbar-actions">
+        <div class="icon">
+            <img src="./images/Vector.png" alt="User Icon" class="user-icon">
+        </div>
+    </div>
+
+    <!-- Hamburger Menu Button (will appear on mobile) -->
+    <div class="hamburger-menu" id="hamburger-menu">
+        <img src="./images/Menu.svg" alt="">
+    </div>
+</nav>
+
+<!-- The dropdown menu (initially hidden) -->
+<div class="mobile-menu" id="mobile-menu">
+    <ul class="navbar-menu-mobile">
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#signals">Signals</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#blog">Blog</a></li>
+    </ul>
+</div>
+
+
+    <!-- Product Section -->
+    <section class="product">
+        <div class="product-image">
+            <img src="./images/hero/3.png" alt="">
+            <img src="./images/hero/4.png" alt="">
+
+            <img id="main-image" src="./images/1.png" alt="Firebee Headband">
+            <div class="thumbnails">
+                <img src="./images/1.png" alt="Firebee Image 1" onclick="changeImage('./images/1.png')">
+                <img src="./images/2.jpg" alt="Firebee Image 2" onclick="changeImage('./images/2.jpg')">
+                <img src="./images/3.jpg" alt="Firebee Image 3" onclick="changeImage('./images/3.jpg')">
+                <img src="./images/4.jpg" alt="Firebee Image 4" onclick="changeImage('./images/4.jpg')">
+                <img src="./images/5.jpg" alt="Firebee Image 5" onclick="changeImage('./images/5.jpg')">
+            </div>
+            <div class="product-info " style="padding: 20px;">
+                <div class="info-item" style="width: 240px;">
+                    <img src="./images/badges/1.png" alt="Free Shipping">
+                </div>
+                <div class="info-item">
+                    <img src="./images/badges/2.png" alt="Fast Delivery">
+                </div>
+                <div class="info-item">
+                    <img src="./images/badges/3.png" alt="Customer Support">
+                </div>
+                <div class="info-item">
+                    <img src="./images/badges/4.png" alt="High Quality">
+                </div>
+            </div>
+        </div>
+
+        <!-- Product Details -->
+        <div class="product-details">
+            <h1>Firebee Headband</h1>
+            <p>⭐⭐⭐⭐⭐ 267 Reviews</p>
+            <p>Order today and receive your Firebee by June 15th, 2021</p>
+
+            <div class="pricing">
+                <div class="package">
+               <img  src="./images/hero/1.png" alt="">
+                </div>
+
+                <div class="package">
+                    <img src="./images/hero/2.png" alt="">
+                </div>
+            </div>
+
+            <button class="add-to-cart">Add to Cart</button>
+
+            <div class="payment-options">
+                <img src="./images/visa/1.png" alt="Visa">
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantee Section -->
+    <section class="guarantee">
+        <div class="guarantee-info">
+            <img src="./images/30-days.png" style="width: 292px; height: 292px;" alt="30 Day Money Back Guarantee">
+            <div class="section-2">
+                <div class="p1" >30 Day Money Back Guarantee</div>
+                <p class="p2">At Firebee we believe in building quality products that actually work. Firebee and its partners have invested over $85 million in research and development to create the highest quality wearable for customers to enjoy. If for any reason if you are not satisfied with your Firebee headband we will happily refund your purchase. .</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Firebee Signals Section -->
+    <section class="firebee-signals">
+        <div class="title">
+            <div class="image" style="
+            
+            position: relative; left: -90px;">
+                <img src="./images/Firebee/bg.png" alt="Happy Signal">
+            </div>
+
+            <div class="" style="display: flex; justify-content: center; flex-direction: column; align-items: center; align-self: center;">
+                <h2 style="font-size: 48px;">Firebee Signals</h2>
+                <p style="font-size: 24px;">A signal for every situation</p>
+            </div>
+
+            
+        </div>
+        <div class="signals-grid">
+            <div class="signal-item">
+                <img src="./images/Firebee/7.png" alt="Bedtime Signal">
+                <p>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</p>
+            </div>
+            <div class="signal-item">
+                <img src="./images/Firebee/1.png" alt="Bedtime Signal">
+                <p>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</p>
+            </div>
+            <div class="signal-item">
+                <img src="./images/Firebee/2.png" alt="Deep Sleep Signal">
+                <p>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</p>
+            </div>
+            <div class="signal-item">
+                <img src="./images/Firebee/3.png" alt="Relax Signal">
+                <p>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</p>
+            </div>
+            <div class="signal-item">
+                <img src="./images/Firebee/4.png" alt="Bedtime Signal">
+                <p>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</p>
+            </div>
+            <div class="signal-item">
+                <img src="./images/Firebee/5.png" alt="Deep Sleep Signal">
+                <p>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</p>
+            </div>
+            <div class="signal-item">
+                <img src="./images/Firebee/6.png" alt="Relax Signal">
+                <p>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</p>
+            </div>
+          
+            <div class="signal-item">
+                <img src="./images/Firebee/8.png" alt="Deep Sleep Signal">
+                <p>Discover your best sleep with responsive sleep journeys, overnight sleep tracking, and personalized insights.</p>
+            </div>
+            <div class="image" style="position: relative; left: 30px;
+            top: -40px  ;">
+                <img src="./images/Firebee/bg.png" alt="Happy Signal">
+            </div>
+            <!-- Additional signals can be added similarly -->
+        </div>
+    </section>
+
+
+    <section class="firebee-section">
+            <h2 style="font-size: 48px; line-height: 5px;">What will Firebee do for me?</h2>
+            <p style="font-size: 18px;">Firebee will help you gently nudge yourself into a different mental state</p>
+
+            <div class="firebee">
+                <div class="img">
+                    <img src="./images/firebee-section/1.png" alt="">
+                </div>
+                <div class="title-img">
+                    <img src="./images/firebee-section/2.png" alt="">
+                </div>
+            </div>
+    </section>
+
+    <section class="box">
+            <h2 style="font-size: 48px;">What’s in the box ?</h2>
+
+            <div class="main-image">
+                <img src="./images/box/product_image.png" alt="">
+            </div>
+
+            <div class="">
+                <img src="./images/box/logos.png" alt="">
+            </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="faq-container">
+            <h2 style="font-size: 48px; padding: 40px;">Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-title">
+                    <span>Is Firebee Safe?</span>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-content">
+                    <p>Yes, Firebee is safe. Firebee meets the safety standards set by ICNIRP (International Commission on Non-Ionizing Radiation Protection). Firebee is 3000x less powerful than your average smartphone. Firebee uses an ultra-low signal that is completely safe for home use. The technology behind Firebee has been rigorously safety tested and has over 300,000 hours tested by users for efficacy and safety. </p>
+                </div>
+            </div>
+    
+            <div class="faq-item">
+                <div class="faq-title">
+                    <span>How Does Firebee work?</span>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-content">
+                    <p>Firebee uses safe ultra-low energy magnetic signals to gently nudge you into a different mental state.
+
+                        Every Firebee signal is made by studying real world magnetic signatures. Did you know caffeine has a unique one of a kind magnetic signature? It’s a relatively unknown fact that every molecule on earth actually has a unique magnetic signature.
+                        
+                        Firebee using patented technology is able to take a magnetic signature and play it back through the Firebee headband. When you use the alert signal with Firebee you are actually playing back the magnetic signature of caffeine which our bodies already recognize. 
+                        
+                        Within minutes of feeling the ultra-low magnetic signal of caffeine our body begins to feel more alert and awake. 
+                        
+                        Firebee signal is 3000 times less powerful than a smartphone and completely safe to use.</p>
+                </div>
+            </div>
+    
+            <div class="faq-item">
+                <div class="faq-title">
+                    <span>Will Firebee Fit on My Head?</span>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-content">
+                    <p>Firebee has a fully adjustable headband you can adjust to fit comfortably and snug on your head.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="faq-item">
+                <div class="faq-title">
+                    <span>What if I want the signal to stop?</span>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-content">
+                    <p>Firebee is designed to be used on command. If you wish to turn off a signal, the effects wear off within minutes.</p>
+                </div>
+            </div>
+    
+            <div class="faq-item">
+                <div class="faq-title">
+                    <span>How do you charge Firebee?</span>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-content">
+                    <p>Firebee comes with a charging dock and a charging cable. Just set up the charging dock on a nightstand and plug it in. </p>
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <!-- Gradient Bar -->
+        <div class="footer-gradient-bar"></div>
+    
+        <!-- Footer Top Section -->
+        <div class="footer-top">
+            <div class="" style="display: flex; justify-content: space-around ; gap: 100px;">
+
+                <div class="footer-column">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Product</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Activate</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-column" style=" text-align: start; ">
+                <h3>Find Us On</h3>
+                <div class="footer-social-icons">
+                    <a href="#"><img src="./images/footer/icons/youtube.svg" alt="YouTube"></a>
+                    <a href="#"><img src="./images/footer/icons/X.svg" alt="Twitter"></a>
+                    <a href="#"><img src="./images/footer/icons/facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="./images/footer/icons/instagram.svg" alt="Instagram"></a>
+                    <a href="#"><img src="./images/footer/icons/P.svg" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Footer Bottom Section -->
+        <div class="footer-bottom">
+            <div class="" style=" text-align: start; line-height: 20px;">
+                <img src="./images/footer/icon.png" style="width: 214px;" alt="">
+                <h2 style="opacity: 50%;">Copyright © 2020 Firebee Technologies, Inc. All rights reserved.</h2>
+                <p style="opacity: 50%;">The statements on this page have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>
+            </div>
+
+            <div class="">
+                <p style="opacity: 50%;">
+                    Privacy Policy Terms of Service
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
