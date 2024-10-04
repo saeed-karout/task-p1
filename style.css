@@ -570,6 +570,13 @@ footer .footer-bottom p {
     .image{
         display: none;
     }
+
+    .guarantee{
+        display: none;
+    }
+    .firebee-section,.box,.payment-options{
+        display: none;
+    }
 }
 
 
