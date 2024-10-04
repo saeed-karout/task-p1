@@ -19,7 +19,6 @@ body {
     font-size: 23px;
     font-weight: bold;
 }
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -43,7 +42,7 @@ body {
 .navbar-menu {
     list-style: none;
     display: flex;
-    gap: 50px;
+    gap: 50px; /* Space between menu items */
 }
 
 .navbar-menu li {
@@ -84,6 +83,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.promo {
+    background-color: #0e4156;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image: url('./images/backFraiday.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 23px;
+    font-weight: bold;
 }
 
 .product {
@@ -415,17 +429,16 @@ footer .footer-bottom p {
         margin: 0;
     }
 
-    .navbar-menu,
-    .navbar-actions {
-        display: none; /* Hide the default navbar menu and actions */
+    .navbar-menu {
+        display: none; /* Hide desktop menu on mobile */
     }
-    .navbar button{
-        width: 120px;
-        height: 60px;
 
+    .navbar-actions {
+        display: none; /* Hide Buy Now button and user icon on mobile */
     }
+
     .hamburger-menu {
-        display: block; /* Show the hamburger menu */
+        display: block; /* Show hamburger menu on mobile */
         cursor: pointer;
         width: 30px;
         height: 30px;
@@ -433,26 +446,22 @@ footer .footer-bottom p {
         z-index: 1000;
     }
 
-    .hamburger-menu span {
-        display: block;
-        background-color: #000;
-        height: 4px;
-        margin: 5px 0;
-        width: 100%;
-    }
-
     #navbar-logo {
         width: 150px; /* Adjust logo size for mobile */
     }
 
     .mobile-menu {
-        display: none; /* Hide the mobile menu by default */
+        display: none; /* Hide mobile menu by default */
         position: absolute;
-        top: 60px; /* Adjust based on the height of your navbar */
+        top: 60px;
         left: 0;
         width: 100%;
         background-color: white;
         z-index: 999;
+    }
+
+    .mobile-menu.active {
+        display: block; /* Show mobile menu when hamburger menu is clicked */
     }
 
     .navbar-menu-mobile {
@@ -460,15 +469,7 @@ footer .footer-bottom p {
         text-align: center;
         padding: 10px 0;
     }
-    .firebee-section{
-        display: none;
-    }
-    .box{
-        display: none;
-    }
-    .firebee-signals .image{
-        display: none;
-    }
+
     .navbar-menu-mobile li {
         margin: 15px 0;
     }
@@ -565,5 +566,18 @@ footer .footer-bottom p {
 
     .footer-gradient-bar {
         top: 0;
+    }
+    .image{
+        display: none;
+    }
+}
+
+
+
+
+
+@media (min-width:700px) {
+    .hamburger-menu{
+        display: none;
     }
 }
