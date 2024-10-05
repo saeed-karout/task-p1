@@ -577,6 +577,7 @@ footer .footer-bottom p {
     .firebee-section,.box,.payment-options{
         display: none;
     }
+  
 }
 
 
@@ -585,6 +586,9 @@ footer .footer-bottom p {
 
 @media (min-width:700px) {
     .hamburger-menu{
+        display: none;
+    }
+     .mobile-menu{
         display: none;
     }
 }
